@@ -52,7 +52,7 @@ button:focus {
 
 /* Pixel Canvas */
 .pixel-canvas:hover {
-  cursor: cell;
+  cursor: url(cursor.cur), url(cursor/cursor.cur), default;
 }
 
 /* Page Title */
