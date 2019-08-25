@@ -50,6 +50,14 @@ button:focus {
   outline: none;
 }
 
+::selection {
+  background: transparent;
+}
+::-moz-selection {
+  /* Code for Firefox */
+  background: transparent;
+}
+
 /* Pixel Canvas */
 .pixel-canvas:hover {
   cursor: url(cursor.cur), url(cursor/cursor.cur), default;
