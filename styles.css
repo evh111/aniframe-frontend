@@ -2,7 +2,7 @@
 body {
   text-align: center;
   font-family: 'Gugi', cursive;
-  background-color: #000000;
+  background: #000000;
 }
 
 table,
@@ -22,7 +22,7 @@ tr {
 
 .table-style:hover {
   color: #000000;
-  background-color: #00ff00;
+  background: #00ff00;
   cursor: pointer;
 }
 
@@ -79,7 +79,7 @@ button:focus {
 /* Added/removed (frame index selectors) */
 .selected {
   color: #000000;
-  background-color: #00ff00;
+  background: #00ff00;
 }
 
 /* Frame rate selectors */
@@ -87,8 +87,18 @@ button:focus {
 .frame-rate-minus,
 .frame-rate-plus {
   color: #00ff00;
-  background-color: #000000;
+  background: #000000;
   font-size: 17px;
+}
+
+.frame-rate {
+  border: #000000;
+  font-size: 20px;
+  text-align: center;
+}
+
+.frame-rate:focus {
+  outline: none;
 }
 
 .frame-rate:hover {
@@ -98,7 +108,7 @@ button:focus {
 .frame-rate-minus:hover,
 .frame-rate-plus:hover {
   color: #000000;
-  background-color: #00ff00;
+  background: #00ff00;
   cursor: pointer;
 }
 

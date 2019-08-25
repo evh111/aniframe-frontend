@@ -59,11 +59,11 @@
           </table>
         </div>
       <table class='pixel-canvas' id="pixel-canvas">
-        <div>
-          <td onclick="setFrameRate(this)" class='frame-rate-minus' id='frame-rate-minus'>-</td>
-          <td onclick="setFrameRate(this)" class='frame-rate' id='frame-rate'>30</td>
-          <td onclick="setFrameRate(this)" class='frame-rate-plus' id='frame-rate-plus'>+</td>
-        </div>
+          <td onclick="frameRateDown('0')" class='frame-rate-plus'>-</td>
+            <td class='frame-rate'>
+              <input class='frame-rate' id='frame-rate' type='text' size='2' value='0'>
+            </td>
+          <td onclick="frameRateUp('10')" class='frame-rate-plus'>+</td>
       </table>
       <div id="palette">
         <div
