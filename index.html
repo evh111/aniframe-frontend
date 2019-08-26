@@ -58,13 +58,16 @@
             </tr>
           </table>
         </div>
-      <table class='pixel-canvas' id='pixel-canvas'>
+      <table class='pixel-canvas' id='pixel-canvas'></table>
+      <div class='frame-rate-selector'>
+        <table>
           <td onclick="frameRateDown('0')" class='frame-rate-plus'>-</td>
             <td>
               <input class='frame-rate' id='frame-rate' type='text' size='2' value='0' disabled>
             </td>
           <td onclick="frameRateUp('10')" class='frame-rate-plus'>+</td>
-      </table>
+        </table>
+      </div>
       <div id="palette">
         <div
           class="pen"
